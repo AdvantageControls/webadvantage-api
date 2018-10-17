@@ -45,6 +45,6 @@
     <key>NSHumanReadableCopyright</key>
     <string>Copyright © 2018 Max Turner</string>
     <key>AsarIntegrity</key>
-    <string>{"checksums":{"app.asar":"iWZf6NArXTDcG0Vb6ZmyCLJjjVgtkW7wRWGGiT5eHFW6/5q77zOJGyojo5dtiwvaby+6DFTgoDMxxbNYOKs/kA==","electron.asar":"Ip/GqLJNwH9HdV4FO24ZDjAtVqEQy9hwEtIJ6eYRRqBG8I9UBqBXVCtCrkiLk/smh6650/gIEW0ly2jvqchncA=="}}</string>
+    <string>{"checksums":{"app.asar":"SliesCQA9HVCwEUucoYRL5qGs1pOs9p3lUR/QtPZS6cbxfYwmfbqOgniokJKu1qisSAEoIfwX2xc/L6ibA2MxQ==","electron.asar":"Ip/GqLJNwH9HdV4FO24ZDjAtVqEQy9hwEtIJ6eYRRqBG8I9UBqBXVCtCrkiLk/smh6650/gIEW0ly2jvqchncA=="}}</string>
   </dict>
 </plist>

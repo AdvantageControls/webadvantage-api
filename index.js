@@ -14,8 +14,10 @@ $(document).ready(function(){
     var password = $('#Password').val();
     var serial = $('#Serial').val();
     var historyType = $('#HistoryType').val();
-    var startDate = $('#StartYear').val() + "-" + $('#StartMonth').val() + "-" + $('#StartDay').val() + " 00:00:00";
-    var endDate = $('#EndYear').val() + "-" + $('#EndMonth').val() + "-" + $('#EndDay').val() + " 23:59:59";
+    var startDate = $('#StartYear').val() + "-" + $('#StartMonth').val() + "-" + $('#StartDay').val() + " " +
+    $('#StartHour').val() + ":" + $('#StartMinutes').val() + ":" + $('#StartSeconds').val();
+    var endDate = $('#EndYear').val() + "-" + $('#EndMonth').val() + "-" + $('#EndDay').val() + " " +
+    $('#EndHour').val() + ":" + $('#EndMinutes').val() + ":" + $('#EndSeconds').val();
 
     if ($('#RememberMe').prop('checked') == true) {
       store.set('username', username);
