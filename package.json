@@ -1,0 +1,28 @@
+{
+  "name": "WebAdvantage-API",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "author": "Max Turner",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^3.0.4",
+    "electron-builder": "^20.28.4"
+  },
+  "dependencies": {
+    "electron-reload": "^1.2.5",
+    "electron-store": "^2.0.0",
+    "jquery": "^3.3.1"
+  },
+  "build": {
+    "appId": "1.0",
+    "mac": {
+      "target": "dmg",
+      "icon": "wa-api_logo.png"
+    }
+  }
+}

@@ -1,0 +1,211 @@
+<html>
+<head>
+
+  <script>window.$ = window.jQuery = require('jquery');</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <!-- <script src="index.js"></script> -->
+</head>
+
+
+<body>
+
+  <center>
+  <img class="logo" src="webadvantage_logo.png">
+  </center>
+
+  <form>
+    <div class="row">
+      <div class="col">
+        <label for="InputUsername">Username</label>
+        <input id="Username" type="text" class="form-control" placeholder="Enter Username" required>
+      </div>
+      <div class="col">
+        <label for="InputPassword">Password</label>
+        <input id="Password" type="password" class="form-control" placeholder="Enter Password" required>
+      </div>
+    </div>
+    <div class="form-group form-check">
+      <input type="checkbox" class="form-check-input" id="RememberMe">
+      <label class="form-check-label" for="RememberMe">Remember Login Info</label>
+    </div>
+
+
+    <div class="row">
+      <div class="col">
+        <label for="InputSerial">Serial Number</label>
+        <input id="Serial" type="text" class="form-control" placeholder="Enter Serial" required>
+      </div>
+      <div class="col">
+        <label for="InputType">History Type</label>
+        <select id="HistoryType" class="form-control" required>
+          <option>all</option>
+          <option>alarm</option>
+          <option>relay</option>
+          <option>flow_meter</option>
+          <option>input</option>
+          <option>notepad</option>
+          <option>sensor</option>
+          <option>water_meter</option>
+        </select>
+      </div>
+    </div>
+
+    <br />
+    <h5>Start Date</h5>
+    <div class="row">
+
+      <div class="col">
+        <label for="StartYear">Year</label>
+        <select id="StartYear" class="form-control" required>
+          <option>2018</option>
+          <option>2017</option>
+          <option>2016</option>
+        </select>
+      </div>
+      <div class="col">
+        <label for="StartMonth">Month</label>
+        <select id="StartMonth" class="form-control" required>
+          <option>01</option>
+          <option>02</option>
+          <option>03</option>
+          <option>04</option>
+          <option>05</option>
+          <option>06</option>
+          <option>07</option>
+          <option>08</option>
+          <option>09</option>
+          <option>10</option>
+          <option>11</option>
+          <option>12</option>
+        </select>
+      </div>
+      <div class="col">
+        <label for="StartDay">Day</label>
+        <select id="StartDay" class="form-control" required>
+          <option>01</option>
+          <option>02</option>
+          <option>03</option>
+          <option>04</option>
+          <option>05</option>
+          <option>06</option>
+          <option>07</option>
+          <option>08</option>
+          <option>09</option>
+          <option>10</option>
+          <option>11</option>
+          <option>12</option>
+          <option>13</option>
+          <option>14</option>
+          <option>15</option>
+          <option>16</option>
+          <option>17</option>
+          <option>18</option>
+          <option>19</option>
+          <option>20</option>
+          <option>21</option>
+          <option>22</option>
+          <option>23</option>
+          <option>24</option>
+          <option>25</option>
+          <option>26</option>
+          <option>27</option>
+          <option>28</option>
+          <option>29</option>
+          <option>30</option>
+          <option>31</option>
+        </select>
+      </div>
+    </div>
+
+    <br />
+    <h5>End Date</h5>
+    <div class="row">
+
+      <div class="col">
+        <label for="EndYear">Year</label>
+        <select id="EndYear" class="form-control" required>
+          <option>2018</option>
+          <option>2017</option>
+          <option>2016</option>
+        </select>
+      </div>
+      <div class="col">
+        <label for="EndMonth">Month</label>
+        <select id="EndMonth" class="form-control" required>
+          <option>01</option>
+          <option>02</option>
+          <option>03</option>
+          <option>04</option>
+          <option>05</option>
+          <option>06</option>
+          <option>07</option>
+          <option>08</option>
+          <option>09</option>
+          <option>10</option>
+          <option>11</option>
+          <option>12</option>
+        </select>
+      </div>
+      <div class="col">
+        <label for="EndDay">Day</label>
+        <select id="EndDay" class="form-control" required>
+          <option>01</option>
+          <option>02</option>
+          <option>03</option>
+          <option>04</option>
+          <option>05</option>
+          <option>06</option>
+          <option>07</option>
+          <option>08</option>
+          <option>09</option>
+          <option>10</option>
+          <option>11</option>
+          <option>12</option>
+          <option>13</option>
+          <option>14</option>
+          <option>15</option>
+          <option>16</option>
+          <option>17</option>
+          <option>18</option>
+          <option>19</option>
+          <option>20</option>
+          <option>21</option>
+          <option>22</option>
+          <option>23</option>
+          <option>24</option>
+          <option>25</option>
+          <option>26</option>
+          <option>27</option>
+          <option>28</option>
+          <option>29</option>
+          <option>30</option>
+          <option>31</option>
+        </select>
+      </div>
+    </div>
+
+    <br />
+
+    <center>
+      <button type="button" id="FormSubmitButton" class="btn btn-primary">Submit</button>
+    </center>
+
+  </form>
+
+  <div class="form-group">
+    <h5>Results</h5>
+    <textarea class="form-control" id="ResultsTextArea" rows="20" disabled>
+
+    </textarea>
+  </div>
+
+
+</body>
+
+</html>
