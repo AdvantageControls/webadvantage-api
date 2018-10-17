@@ -5,4 +5,6 @@ appId: '1.0'
 mac:
   target: dmg
   icon: wa-api_logo.png
+win:
+  icon: wa-api_logo.png
 electronVersion: 3.0.4
