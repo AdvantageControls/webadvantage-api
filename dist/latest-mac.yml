@@ -1,0 +1,10 @@
+version: 1.0.4
+files:
+  - url: WebAdvantage-API-1.0.4-mac.zip
+    sha512: VRMGON/Uml04tG8R8MzG6/W4pe0+/bSRjkqWyeuSPbdfe+oC9Cv6W6MM+p5RHPhTKQhnZRwqaSxCSxA0NOHZvw==
+  - url: WebAdvantage-API-1.0.4.dmg
+    sha512: dkiQcH2ubl7xpTG6cAAM69BmFKztpSIr2FQrHqN02cY1XeLdlsT4DRutOyoMIXu36QCOG9dfaOpD8RyGQnruJQ==
+    size: 54440564
+path: WebAdvantage-API-1.0.4-mac.zip
+sha512: VRMGON/Uml04tG8R8MzG6/W4pe0+/bSRjkqWyeuSPbdfe+oC9Cv6W6MM+p5RHPhTKQhnZRwqaSxCSxA0NOHZvw==
+releaseDate: '2018-10-24T21:24:07.698Z'

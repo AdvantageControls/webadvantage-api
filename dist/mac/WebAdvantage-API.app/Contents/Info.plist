@@ -19,9 +19,9 @@
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>
-    <string>1.0.0</string>
+    <string>1.0.4</string>
     <key>CFBundleVersion</key>
-    <string>1.0.0</string>
+    <string>1.0.4</string>
     <key>DTSDKBuild</key>
     <string>16E185</string>
     <key>DTSDKName</key>
@@ -45,6 +45,6 @@
     <key>NSHumanReadableCopyright</key>
     <string>Copyright © 2018 Max Turner</string>
     <key>AsarIntegrity</key>
-    <string>{"checksums":{"app.asar":"SliesCQA9HVCwEUucoYRL5qGs1pOs9p3lUR/QtPZS6cbxfYwmfbqOgniokJKu1qisSAEoIfwX2xc/L6ibA2MxQ==","electron.asar":"Ip/GqLJNwH9HdV4FO24ZDjAtVqEQy9hwEtIJ6eYRRqBG8I9UBqBXVCtCrkiLk/smh6650/gIEW0ly2jvqchncA=="}}</string>
+    <string>{"checksums":{"app.asar":"yBUWSy8OcUkO3Zjo0ULnj9PHW+S6dqxvFiO2rzCmOcDPVRPjmN8/AAzC8NNYPAHfWTGzi9VwkABYvfpP7pRGnA==","electron.asar":"4iVJ+V/KIDe5yCd3e4bBWg13Fl7wYfhGQwWJOpK2tDi6bfOXF3eO09scPHBwoVwpZ4xGRctlGOYW6xy4VWPnXg=="}}</string>
   </dict>
 </plist>

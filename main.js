@@ -3,9 +3,33 @@ const path = require('path')
 const url = require('url')
 const exec = require('child_process').exec;
 require('electron-reload')(__dirname);
+const { autoUpdater } = require("electron-updater");
 let mainWindow;
 
 app.on('ready', () => {
+
+  //autoUpdater.checkForUpdates();
+  autoUpdater.checkForUpdatesAndNotify();
+  
+  autoUpdater.on('checking-for-update', () => {
+    mainWindow.webContents.send('checking-for-update')
+  })
+
+  autoUpdater.on('update-available', (info) => {
+    mainWindow.webContents.send('update-available')
+  })
+
+  autoUpdater.on('update-not-available', (info) => {
+    mainWindow.webContents.send('update-not-available')
+  })
+
+  autoUpdater.on('error', (err) => {
+    mainWindow.webContents.send('update-error')
+  })
+
+  autoUpdater.on('update-downloaded', (info) => {
+    mainWindow.webContents.send('update-downloaded')
+  })
 
   mainWindow = new BrowserWindow({ width: 800, height: 1300, title: "WebAdvantage 3 - API"}); // to get rid of title bar: frame: false
 

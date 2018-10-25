@@ -2,9 +2,12 @@ directories:
   output: dist
   buildResources: build
 appId: '1.0'
+publish:
+  - provider: github
+    owner: AdvantageControls
+    repo: webadvantage-api
 mac:
-  target: dmg
   icon: wa-api_logo.png
 win:
   icon: wa-api_logo.png
-electronVersion: 3.0.4
+electronVersion: 3.0.5
